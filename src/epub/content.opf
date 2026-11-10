@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/edgar-rice-burroughs/the-cave-girl</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-11-10T03:35:05Z</dc:date>
+		<meta property="dcterms:modified">2026-11-10T03:35:05Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -52,14 +52,14 @@
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:abstract">An American castaway finds himself in an island inhabited by stone-age people.</meta>
 		<dc:description>
-			&lt;p&gt;Waldo Emerson Smith-Jones is the sheltered, overly educated son of a prominent Boston family. During a sea voyage to the South Seas, he becomes a castaway in a secluded island. During his stay in the island, he becomes enamored with a local woman, and must learn how to survive in the harsh, uncivilized island environment before he can return to civilization.&lt;/p&gt;
-			&lt;p&gt;Like other &lt;a href="https://standardebooks.org/ebooks/edgar-rice-burroughs"&gt;Edgar Rice Burroughs&lt;/a&gt; works, &lt;i&gt;The Cave Girl&lt;/i&gt; was first serialized in periodicals before being published in book form. The first part of the story was titled “The Cave Girl” and was serialized in &lt;i&gt;All-Story&lt;/i&gt; in 1913; the second part, titled “The Cave Man,” was serialized in &lt;i&gt;All-Story Weekly&lt;/i&gt; in 1917.&lt;/p&gt;
+			&lt;p&gt;Waldo Emerson Smith-Jones is the sheltered, overly educated son of a prominent Boston family. During a voyage to the South Seas, he’s swept overboard, becoming a castaway on a secluded island. He soon he becomes enamored with a local woman, and must learn how to survive in the harsh, uncivilized island environment before he can return to civilization.&lt;/p&gt;
+			&lt;p&gt;Like other &lt;a href="https://standardebooks.org/ebooks/edgar-rice-burroughs"&gt;Edgar Rice Burroughs&lt;/a&gt; works, &lt;i&gt;The Cave Girl&lt;/i&gt; was first serialized in periodicals before being published as a single volume. The first part of the story was titled “The Cave Girl” and was serialized in &lt;i&gt;All-Story&lt;/i&gt; in 1913; the second part, titled “The Cave Man,” was serialized in &lt;i&gt;All-Story Weekly&lt;/i&gt; in 1917.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/69191</dc:source>
 		<dc:source>https://archive.org/details/bwb_P9-CTW-950</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">69402</meta>
+		<meta property="schema:educationalLevel">69.21</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Cave_Girl" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
@@ -97,6 +97,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Vince Rice</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Rice, Vince</meta>
+		<link href="https://www.brokenandsaved.com/" refines="#producer-2" rel="schema:url"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
